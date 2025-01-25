@@ -5,10 +5,10 @@ copyright = "Erik Skopp"
 pagination.pagerSize = 10
 languageCode = "de"
 
-# theme = "tailwind"
-[module]
-  [[module.imports]]
-    path = "github.com/tomowang/hugo-theme-tailwind"
+theme = "tailwind"
+#[module]
+# [[module.imports]]
+#    path = "github.com/tomowang/hugo-theme-tailwind"
 
 [markup]
   _merge = "deep"
