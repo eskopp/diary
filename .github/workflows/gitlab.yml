@@ -17,8 +17,8 @@ jobs:
         uses: eskopp/github-to-gitlab@v1
         with:
           git_username: "ZXNrb3Bw"
-          git_email: "c2tvcHAuZXJpa0BnbWFpbC5jb20="
-          gitlab_repo: "aHR0cHM6Ly9naXRsYWIuZXJpay1za29wLmRlL2dpdGh1Yi9kaWFyeS5naXQ="
+          git_email: "aW5mb0BlcmlrLXNrb3BwLmRl"
+          gitlab_repo: "aHR0cHM6Ly9naXRsYWIuZXJpay1za29wcC5kZS9naXRodWIvZGlhcnkuZ2l0"
           gitlab_token: ${{ secrets.GITLAB }}
           github_token: ${{ secrets.GITHUB }}
           base64: "true"
