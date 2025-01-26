@@ -23,7 +23,7 @@ theme = "tailwind"
 
   [params.footer]
     since = 2023
-    poweredby = true
+    poweredby = false
 
 [menu]
 

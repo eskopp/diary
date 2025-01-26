@@ -1,9 +1,9 @@
-name: Mirror GitHub to GitLab 
+name: Mirror GitHub to GitLab
 
 on:
   push:
     branches:
-      - main 
+      - main
 
 jobs:
   sync:
@@ -22,4 +22,3 @@ jobs:
           gitlab_token: ${{ secrets.GITLAB }}
           github_token: ${{ secrets.GITHUB }}
           base64: "true"
- 
